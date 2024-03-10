@@ -16,7 +16,7 @@ fi
 git pull origin main
 cd -
 
-dirs=("src" "pytorch" )
+dirs=("code" "pytorch" )
 
 for dir in "${dirs[@]}"; do
   rm -rf "./$dir"
