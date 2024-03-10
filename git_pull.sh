@@ -22,4 +22,4 @@ for dir in "${dirs[@]}"; do
   rm -rf "./$dir"
   cp -rf "$WORKDIR/$dir" .
 done
-
+ 
