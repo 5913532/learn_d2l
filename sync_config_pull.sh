@@ -11,7 +11,7 @@ WORKDIR="../_remote_config"
 mkdir -p $WORKDIR
 cd $WORKDIR
 if [ ! -d ".git" ]; then
-    git clone https://github.com/JiepengTan/test_mb.git ./
+    git clone https://github.com/5913532/learn_d2l.git ./
 fi
 git pull origin main
 cd -
