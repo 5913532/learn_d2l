@@ -16,3 +16,4 @@ runs/pose/
 MotionGen/Unity/Packages/packages-lock.json
 VideoParser/unity_anim*
 test
+nohup.out
